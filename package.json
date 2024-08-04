@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "app.js",
   "scripts": {
     "test": "jest",
-    "build": "jest --watch app.test.js",
+    "build": "jest --watch *.js",
     "dev": "nodemon app.js"
   },
   "author": "Metal",
